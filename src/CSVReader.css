@@ -1,0 +1,67 @@
+.csv-reader-container {
+    margin: 20px;
+  }
+  
+  .csv-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .csv-table th, .csv-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .csv-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .edit-btn, .save-btn, .add-row-btn {
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-right: 5px;
+  }
+  
+  .delete-btn {
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-right: 5px;
+  }
+  
+  .export-btn {
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-right: 5px;
+    margin-top: 10px;
+  }
+  
+  .edit-btn:hover, .save-btn:hover, .add-row-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .add-row-container {
+    margin-top: 10px;
+  }
+  
+  .add-row-container input {
+    margin-right: 10px;
+    padding: 5px;
+  }
+  
+  .add-row-container input:last-child {
+    margin-right: 0;
+  }
+  
